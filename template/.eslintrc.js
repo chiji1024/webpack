@@ -37,6 +37,16 @@ module.exports = {
     'arrow-parens': 0,
     // allow async-await
     'generator-star-spacing': 0,
+    // require semi
+    'semi': ['error', 'always'],
+    // no space between function and function_name
+    "space-before-function-paren": 0,
+    "no-undef": 0,
+    "no-unused-vars": 0,
+    "no-useless-escape": 0,
+    "no-trailing-spaces":0,
+    'no-multiple-empty-lines':0,
+    "comma-dangle": 0,
     {{/if_eq}}
     {{#if_eq lintConfig "airbnb"}}
     // don't require .vue extension when importing
